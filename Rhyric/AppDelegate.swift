@@ -27,8 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().barTintColor = UIColor.barBlack
         UITabBar.appearance().isTranslucent = false
         
-        NCMB.setApplicationKey("a8ce3a2bb1f4392aa6b8fa91c223ed25bb09a3fa040f4529b66dce191b71add0",
-                               clientKey: "b197ba9b0b49f8de8cf07af9bb9543559dca9c5506874d11fc62c709f14f52bd")
+        NCMB.setApplicationKey("****",
+                               clientKey: "****")
         
         let ud = UserDefaults.standard
         let isLogin = ud.bool(forKey: "isLogin")
